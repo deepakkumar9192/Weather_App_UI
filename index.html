@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Weather App UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="image/weather-favicon-icon.png">
+
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="phone-layout-row">
+            <div class="phone-screen-col welcome-screen">
+                <div class="status-bar">
+                    <span class="current-time">1:41</span>
+                        <div class="status-bar-center"></div>
+                        <div class="device-indicators">
+                        <i class="fa-solid fa-signal"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                </div>
+                <div class="weather-illustration">
+                    <img src="image/sun-cloud-rain-icon.png" alt="Weather Icon">
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                </div>
+                <h1 class="app-main-title">Weather<br><span>ForeCasts</span></h1>
+                <a class="btn" href="">Get Start</a>
+            </div>
+
+            <div class="phone-screen-col current-screen">
+                <div class="status-bar status-top-bar">
+                    <span class="current-time">1:41</span>
+                        <div class="status-bar-center"></div>
+                    <div class="device-indicators">
+                        <i class="fa-solid fa-signal"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                </div>
+
+                <div class="current-weather-content">
+                    <img src="image/sun-cloud-rain-icon.png" alt="Weather Icon">
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <div class="raindrop"></div>
+                    <span class="current-temperature">19&deg;</span>
+                    <p class="weather-summary">Precipitations<br>Max: 24&deg;&nbsp;&nbsp;&nbsp;Min:18&deg;</p>
+                </div>
+
+                <div class="house-illustration">
+                    <img src="image/winter-house.png" alt="Winter House">
+                </div>
+
+                <div class="weather-details-box">
+                    <div class="date-section">
+                        <span class="label">Today</span>
+                        <span class="label">July, 21</span>
+                    </div>
+
+                    <div class="hourly-forecast">
+                        <div class="hourly-item">
+                            <span>19&deg;C</span>
+                            <img src="image/sun-cloud-rain-icon.png" alt="Sunny Rain">
+                            <span>15.00</span>
+                        </div>
+                        <div class="hourly-item">
+                            <span>18&deg;C</span>
+                            <img src="image/moon-cloud-rain-icon.png" alt="Night Rain">
+                            <span>16.00</span>
+                        </div>
+                        <div class="hourly-item">
+                            <span>18&deg;C</span>
+                            <img src="image/moon-cloud-rain-icon.png" alt="Night Rain">
+                            <span>17.00</span>
+                        </div>
+                        <div class="hourly-item">
+                            <span>18&deg;C</span>
+                            <img src="image/moon-cloud-rain-icon.png" alt="Night Rain">
+                            <span>18.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-nav">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="phone-screen-col screen-forecast">
+                <div class="status-bar">
+                    <span class="current-time">1:41</span>
+                        <div class="status-bar-center"></div>
+                    <div class="device-indicators">
+                        <i class="fa-solid fa-signal"></i>
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                </div>
+
+                <p class="weather-summary">North America <br>Max: 24&deg;&nbsp;&nbsp;&nbsp;Min:18&deg;</p>
+                <h3 class="forecast-title">7-Day Forecasts</h3>
+
+                <div class="hourly-forecast">
+                    <i class="fa-solid fa-less-than"></i>
+
+                    <div class="hourly-item primary-bg">
+                        <span>19&deg;C</span>
+                        <img src="image/sun-cloud-rain-icon.png" alt="Monday Weather">
+                        <span>Mon</span>
+                    </div>
+                    <div class="hourly-item secondary-bg">
+                        <span>18&deg;C</span>
+                        <img src="image/moon-cloud-rain-icon.png" alt="Tuesday Weather">
+                        <span>Tue</span>
+                    </div>
+                    <div class="hourly-item secondary-bg">
+                        <span>18&deg;C</span>
+                        <img src="image/moon-cloud-rain-icon.png" alt="Wenesday Weather">
+                        <span>Wed</span>
+                    </div>
+                    <div class="hourly-item secondary-bg">
+                        <span>18&deg;C</span>
+                        <img src="image/sun-cloud-rain-icon.png" alt="Thursday Weather">
+                        <span>Thu</span>
+                    </div>
+                    <i class="fa-solid fa-greater-than"></i>
+
+                </div>
+
+                <div class="air-card">
+                    <i class="fa-solid fa-crosshairs"></i>
+                    <p class="air-label">Air Quality</p>
+                    <h2 class="risk-level">3-Low Health Risk</h2>
+                    <a class="see-more" href="">See more
+                        <i class="fa-solid fa-greater-than"></i>
+                    </a>
+                </div>
+
+                <div class="sunrise-row">
+                    <div class="sunrise-info-card">
+                        <img src="image/sun-icon.png" alt="Sunrise Icon">
+                        <p class="info-label">SUNRISE</p>
+                        <span class="info-value">5:28 AM</span>
+                        <p class="info-label">Sunset: 7:25PM</p>
+                    </div>
+                    <div class="sunrise-info-card">
+                        <img src="image/sun-icon.png" alt="UV Index Icon">
+                        <p class="info-label">UV INDEX</p>
+                        <span class="info-value">4</span>
+                        <p class="info-label info-extra">Moderate</p>
+                    </div>
+                </div>
+
+                <div class="screen-footer">
+                    <i class="fa-solid fa-house"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
