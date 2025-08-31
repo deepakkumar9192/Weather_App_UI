@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+.btn,.label,.forecast-title,.air-label,.risk-level,.see-more,.info-label,.info-value,.info-extra{
+    font-family: "Open Sans", sans-serif;
+}
 .main-container{
     background: linear-gradient(to bottom, #8b5cf6 10%, #a855f7 40%, #c084fc 80%, #ddd6fe 100%);
     color: #fff;
@@ -159,15 +162,11 @@
 .btn,.screen-forecast .hourly-item{
     border-radius: 50px;
 }
-.btn,.label,.forecast-title,.air-label,.risk-level,.see-more,.info-label,.info-value,.info-extra{
-    font-family: "Open Sans", sans-serif;
-}
 .btn:hover{
     background-color: #ffff00;
     box-shadow: 0 0 12px 4px rgba(255, 255, 0, 0.6);
 }
 
-/* <!-- Second Screen: Current Weather Details --> */
 .current-screen{
     padding: 18px 0;
 }
@@ -350,7 +349,7 @@
 
 @media(max-width: 420px){
     .screen-forecast .hourly-forecast{
-        gap: 8px;
+        gap: 5px;
     }
     .fa-less-than,.fa-greater-than{
         font-size: 12px;
